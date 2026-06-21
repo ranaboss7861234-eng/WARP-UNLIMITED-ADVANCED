@@ -1,8 +1,8 @@
 ENV = True
 INTERACTIVE_MODE = False
 WARP_CLIENT_ID = "b294091a-5678-4246-acfa-b5ae584c0aa3"
-SEND_LOG = False # or True
-HIDE_WC_ID = True # or False
+SEND_LOG = False
+HIDE_WC_ID = True
 TELEGRAM_BOT_TOKEN = ""
 CHAT_ID = ""
 LOG_FILE = "runtime-log.txt" # rename if required
