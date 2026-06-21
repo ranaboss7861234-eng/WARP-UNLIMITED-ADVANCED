@@ -31,7 +31,8 @@ log.info(f"Python: {py_ver[0]}.{py_ver[1]}.{py_ver[2]}")
 if ENV:
   log.info("ENV mode in ENABLED.")
   WARP_CLIENT_ID = str(environ.get("WARP_CLIENT_ID", ""))
-  SEND_LOG = str(environ.get("SEND_LOG", False).lower()) in {"true", "t", "1"}
+  SEND_LOG = str(environ.get("SEND_LOG", "false")).lower() in {"true", "t", "1"}
+
   if SEND_LOG:
     TELEGRAM_BOT_TOKEN = environ.get("TELEGRAM_BOT_TOKEN", "")
     CHAT_ID = environ.get("CHAT_ID", "")
