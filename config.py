@@ -5,7 +5,7 @@ SEND_LOG = False
 HIDE_WC_ID = True
 TELEGRAM_BOT_TOKEN = ""
 CHAT_ID = ""
-LOG_FILE = "runtime-log.txt" # rename if required
+LOG_FILE = "runtime-log.txt"
 
 # Defaults
 MSG_ID, SUCCESS_COUNT, FAIL_COUNT = False, 0, 0
